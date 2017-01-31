@@ -1,0 +1,38 @@
+body {
+background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2017/01/NGS_desktop_cacti-colombia.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+
+#one
+{
+padding:10px;
+border:5px inset black;
+margin:10px:
+width:auto;
+text-align: center;
+  }
+
+#two{
+  padding:10px;
+  border:5px double black;
+  margin:20px;
+  width:auto;
+  background-color:olive;
+  /*opacity: 0.5;*/
+
+}
+/*ask how to get words to remain bold*/
+
+
+
+
+a:visited {
+    color:black;
+}
+a:hover {
+    color:Crimson;
+}

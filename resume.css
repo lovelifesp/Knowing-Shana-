@@ -1,0 +1,25 @@
+body {
+background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2017/01/NGS_desktop_cacti-colombia.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+#one
+{
+padding:10px;
+border:5px inset black;
+margin:10px:
+width:auto;
+text-align: center;
+  }
+
+
+
+  a:visited {
+      color:black;
+  }
+  a:hover {
+      color:olive;
+  }
