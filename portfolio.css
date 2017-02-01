@@ -6,7 +6,6 @@ background-attachment: fixed;
 }
 
 
-
 #one
 {
 padding:10px;
@@ -17,11 +16,70 @@ text-align: center;
   }
 
 
+  .clear {
+    clear:both;
+  }
+
+  #grid {
+    display:inline-block;
+    padding:5px;
+    border:20px double black;
+    margin:100px:
+    width:500px;
+
+    }
+
+  .grid-element {
+      display:inline-block;
+      width:500px;
+      height:100px;
+      margin: 3em;
+    }
+
+.fancy{
+  font-family:'Poiret One', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
 
 
   a:visited {
       color:black;
   }
-  a:hover {
+ a:hover {
       color:olive;
   }
+a:active{
+  color:Crimson;
+}
+
+
+.move {
+  background:none;
+  width: 100px;
+  height: 160px;
+  margin: 30px;
+}
+#one {
+  position: fixed;
+  top: 80px;
+  left: 10px;
+}
+.it {
+  width: 500px;
+  height: 300px;
+  overflow:scroll;
+  padding-left: 150px;
+}
+
+
+@media (max-width: 150px) {
+    .grid {
+        margin-left: 0;
+    }
+
+    @media (min-width: 1000px) {
+        .grid {
+            margin-left: 0;
+        }
