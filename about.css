@@ -9,6 +9,7 @@ background-attachment: fixed;
 
 #one
 {
+background-color: rgba(12, 14, 140, 0.34);
 padding:10px;
 border:5px inset black;
 margin:10px:
@@ -21,8 +22,8 @@ text-align: center;
   border:5px double black;
   margin:20px;
   width:auto;
-  background-color:olive;
-  /*opacity: 0.5;*/
+  background-color:rgba(101, 152, 31, 0.34);
+
 
 }
 /*ask how to get words to remain bold*/
@@ -34,5 +35,8 @@ a:visited {
     color:black;
 }
 a:hover {
-    color:Crimson;
+    color:olive;
+}
+a:active{
+color:Crimson;
 }

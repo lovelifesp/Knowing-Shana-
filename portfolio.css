@@ -2,38 +2,49 @@ body {
 background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2017/01/NGS_desktop_cacti-cololmbia2.jpg");
 background-repeat: no-repeat;
 background-position: center;
-background-attachment: fixed;
+background-attachment:fixed;
+background-size: cover;
 }
 
 
 #one
-{
+{background-color: rgba(12, 14, 140, 0.34);
 padding:10px;
 border:5px inset black;
-margin:10px:
+margin:10px;
 width:auto;
 text-align: center;
   }
 
+#three
+{
+  background-color:rgba(101, 152, 31, 0.34);
+  display:inline-block;
+  padding:20px;
+  border:5px double black;
+  margin:50px;
+  width:auto;
+  text-align:center;
 
+}
   .clear {
     clear:both;
   }
 
   #grid {
+    background-color: rgba(101, 152, 31, 0.34);
     display:inline-block;
     padding:5px;
-    border:20px double black;
-    margin:100px:
-    width:500px;
-
-    }
+    border:5.2px double black;
+    /*margin:auto;*/
+    width:96%;
+}
 
   .grid-element {
       display:inline-block;
-      width:500px;
-      height:100px;
-      margin: 3em;
+      /*width:400px;*/
+      height:400px;
+      margin: 2.4em;
     }
 
 .fancy{
@@ -55,31 +66,23 @@ a:active{
 }
 
 
-.move {
-  background:none;
-  width: 100px;
-  height: 160px;
-  margin: 30px;
-}
-#one {
-  position: fixed;
-  top: 80px;
-  left: 10px;
-}
-.it {
-  width: 500px;
-  height: 300px;
-  overflow:scroll;
-  padding-left: 150px;
-}
+
 
 
 @media (max-width: 150px) {
-    .grid {
+    #grid {
         margin-left: 0;
     }
 
     @media (min-width: 1000px) {
-        .grid {
+        #grid {
             margin-left: 0;
         }
+
+
+      @media screen and (min-width: 500px) {
+            #one {width: 500px; float: left;}
+            #grid {margin-left:416px;}
+        }
+
+@media handheld and (min-width: 20em), screen and (min-width: 20em)
